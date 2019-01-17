@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+char arr[1024];
+int index = 0;
+
+
 int main(){
 
     printf("jinrumingnacixitong\n");
@@ -18,6 +22,18 @@ int main(){
         scanf("%d",&code);
 
         if(code == 1){
+            printf("qingshuruyaotianjiade\n");
+            char m;
+            scanf("%c",&m);
+            scanf("%c",&m);
+
+            arr[index] = m;
+            index++;
+
+            printf("chenggong,huichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
 
 
         }
