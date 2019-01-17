@@ -49,6 +49,17 @@ int main(){
             
         }
         if(code == 3){
+            printf("mingancuruxia：\n");
+
+            for (int i = 0; i < index; i++)
+            {
+                printf("第%d个敏感字符为%c\n", i + 1, arr[i]);
+            }
+
+            printf("chenggong,dianjihuichejixu\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
 
             
         }
