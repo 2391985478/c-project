@@ -38,6 +38,13 @@ int main(){
 
         }
         if(code == 2){
+            printf("shanchuzuihouyige\n");
+            index--;
+
+            printf("shanchuchenggong,huiche\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
 
             
         }
